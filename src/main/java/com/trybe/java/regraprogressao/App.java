@@ -30,5 +30,17 @@ public class App {
     }
 
     float finalGradeResult = (float) gradesSum / weightSum;
+
+
+    if (finalGradeResult >= 85) {
+      System.out.println(
+          "Parabéns! Você alcançou " + finalGradeResult
+              + "%! E temos o prazer de informar que você obteve aprovação!");
+    } else {
+      System.out.println(
+          "Lamentamos informar que, com base na sua pontuação alcançada neste período, "
+              + finalGradeResult
+              + "%, você não atingiu a pontuação mínima necessária para sua aprovação.");
+    }
   }
 }
