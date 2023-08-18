@@ -42,5 +42,7 @@ public class App {
               + finalGradeResult
               + "%, você não atingiu a pontuação mínima necessária para sua aprovação.");
     }
+
+    scanner.close();
   }
 }
